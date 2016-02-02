@@ -1,0 +1,1680 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Twilight Imperium 1v1" version="1.2"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <!-- Territory Definitions -->
+    <!-- Sea Zones -->
+    <territory name="Sector 1" water="true"/>
+    <territory name="Sector 2" water="true"/>
+    <territory name="Sector 3" water="true"/>
+    <territory name="Sector 4" water="true"/>
+    <territory name="Sector 5" water="true"/>
+    <territory name="Sector 6" water="true"/>
+    <territory name="Sector 7" water="true"/>
+    <territory name="Sector 8" water="true"/>
+    <territory name="Sector 9" water="true"/>
+    <territory name="Sector 10" water="true"/>
+    <territory name="Sector 11" water="true"/>
+    <territory name="Sector 12" water="true"/>
+    <territory name="Sector 13" water="true"/>
+    <territory name="Sector 14" water="true"/>
+    <territory name="Sector 15" water="true"/>
+    <territory name="Sector 16" water="true"/>
+    <territory name="Sector 17" water="true"/>
+    <territory name="Sector 18" water="true"/>
+    <territory name="Sector 19" water="true"/>
+    <territory name="Sector 20" water="true"/>
+    <territory name="Sector 21" water="true"/>
+    <territory name="Sector 22" water="true"/>
+    <territory name="Sector 23" water="true"/>
+    <territory name="Sector 24" water="true"/>
+    <territory name="Sector 25" water="true"/>
+    <territory name="Sector 26" water="true"/>
+    <territory name="Sector 27" water="true"/>
+    <territory name="Sector 28" water="true"/>
+    <territory name="Sector 29" water="true"/>
+    <territory name="Sector 30" water="true"/>
+    <territory name="Sy" water="true"/>
+    <territory name="Sg" water="true"/>
+    <territory name="Sr" water="true"/>
+    <territory name="Sbl" water="true"/>
+    <territory name="Sbr" water="true"/>
+    <territory name="TY" water="true"/>
+    <territory name="FY" water="true"/>
+    <territory name="CY" water="true"/>
+    <territory name="IpY" water="true"/>
+    <territory name="InY" water="true"/>
+    <territory name="VY" water="true"/>
+    <territory name="TG" water="true"/>
+    <territory name="FG" water="true"/>
+    <territory name="CG" water="true"/>
+    <territory name="IpG" water="true"/>
+    <territory name="InG" water="true"/>
+    <territory name="VG" water="true"/>
+    <territory name="TR" water="true"/>
+    <territory name="FR" water="true"/>
+    <territory name="CR" water="true"/>
+    <territory name="IpR" water="true"/>
+    <territory name="InR" water="true"/>
+    <territory name="VR" water="true"/>
+    <territory name="TBr" water="true"/>
+    <territory name="FBr" water="true"/>
+    <territory name="CBr" water="true"/>
+    <territory name="IpBr" water="true"/>
+    <territory name="InBr" water="true"/>
+    <territory name="VBr" water="true"/>
+    <territory name="TBl" water="true"/>
+    <territory name="FBl" water="true"/>
+    <territory name="CBl" water="true"/>
+    <territory name="IpBl" water="true"/>
+    <territory name="InBl" water="true"/>
+    <territory name="VBl" water="true"/>
+    <territory name="Vc1a" water="true"/>
+    <territory name="Vc1b" water="true"/>
+    <territory name="Vc1c" water="true"/>
+    <territory name="Vc1d" water="true"/>
+    <territory name="Vc1e" water="true"/>
+    <territory name="Vc2a" water="true"/>
+    <territory name="Vc2b" water="true"/>
+    <territory name="Vc2c" water="true"/>
+    <territory name="Vc2d" water="true"/>
+    <territory name="Vc2e" water="true"/>
+    <territory name="Vc3a" water="true"/>
+    <territory name="Vc3b" water="true"/>
+    <territory name="Vc3c" water="true"/>
+    <territory name="Vc3d" water="true"/>
+    <territory name="Vc3e" water="true"/>
+    <territory name="Vc4a" water="true"/>
+    <territory name="Vc4b" water="true"/>
+    <territory name="Vc4c" water="true"/>
+    <territory name="Vc4d" water="true"/>
+    <territory name="Vc4e" water="true"/>
+    <territory name="Vc5a" water="true"/>
+    <territory name="Vc5b" water="true"/>
+    <territory name="Vc5c" water="true"/>
+    <territory name="Vc5d" water="true"/>
+    <territory name="Vc5e" water="true"/>
+    <territory name="Vc6a" water="true"/>
+    <territory name="Vc6b" water="true"/>
+    <territory name="Vc6c" water="true"/>
+    <territory name="Vc6d" water="true"/>
+    <territory name="Vc6e" water="true"/>
+    <territory name="Vc7a" water="true"/>
+    <territory name="Vc7b" water="true"/>
+    <territory name="Vc7c" water="true"/>
+    <territory name="Vc7d" water="true"/>
+    <territory name="Vc7e" water="true"/>
+    <territory name="Vc8a" water="true"/>
+    <territory name="Vc8b" water="true"/>
+    <territory name="Vc8c" water="true"/>
+    <territory name="Vc8d" water="true"/>
+    <territory name="Vc8e" water="true"/>
+    <territory name="Vc9a" water="true"/>
+    <territory name="Vc9b" water="true"/>
+    <territory name="Vc9c" water="true"/>
+    <territory name="Vc9d" water="true"/>
+    <territory name="Vc9e" water="true"/>
+    <territory name="Vc10a" water="true"/>
+    <territory name="Vc10b" water="true"/>
+    <territory name="Vc10c" water="true"/>
+    <territory name="Vc10d" water="true"/>
+    <territory name="Vc10e" water="true"/>
+    <territory name="Vc11a" water="true"/>
+    <territory name="Vc11b" water="true"/>
+    <territory name="Vc11c" water="true"/>
+    <territory name="Vc11d" water="true"/>
+    <territory name="Vc11e" water="true"/>
+    <territory name="Vc12a" water="true"/>
+    <territory name="Vc12b" water="true"/>
+    <territory name="Vc12c" water="true"/>
+    <territory name="Vc12d" water="true"/>
+    <territory name="Vc12e" water="true"/>
+    <territory name="Vc13a" water="true"/>
+    <territory name="Vc13b" water="true"/>
+    <territory name="Vc13c" water="true"/>
+    <territory name="Vc13d" water="true"/>
+    <territory name="Vc13e" water="true"/>
+    <territory name="Vc14a" water="true"/>
+    <territory name="Vc14b" water="true"/>
+    <territory name="Vc14c" water="true"/>
+    <territory name="Vc14d" water="true"/>
+    <territory name="Vc14e" water="true"/>
+    <territory name="Vc15a" water="true"/>
+    <territory name="Vc15b" water="true"/>
+    <territory name="Vc15c" water="true"/>
+    <territory name="Vc15d" water="true"/>
+    <territory name="Vc15e" water="true"/>
+    <territory name="Vc16a" water="true"/>
+    <territory name="Vc16b" water="true"/>
+    <territory name="Vc16c" water="true"/>
+    <territory name="Vc16d" water="true"/>
+    <territory name="Vc16e" water="true"/>
+    <territory name="Vc17a" water="true"/>
+    <territory name="Vc17b" water="true"/>
+    <territory name="Vc17c" water="true"/>
+    <territory name="Vc17d" water="true"/>
+    <territory name="Vc17e" water="true"/>
+    <territory name="Vc18a" water="true"/>
+    <territory name="Vc18b" water="true"/>
+    <territory name="Vc18c" water="true"/>
+    <territory name="Vc18d" water="true"/>
+    <territory name="Vc18e" water="true"/>
+    <!-- Land Territories -->
+    <territory name="Winnu"/>
+    <territory name="Zohbat"/>
+    <territory name="Mellon"/>
+    <territory name="Garbozia"/>
+    <territory name="Lisis II"/>
+    <territory name="Ragh"/>
+    <territory name="Lor"/>
+    <territory name="Arnor"/>
+    <territory name="Mirage"/>
+    <territory name="Moll Primus"/>
+    <territory name="Abyz"/>
+    <territory name="Fria"/>
+    <territory name="Bereg"/>
+    <territory name="Lirta IV"/>
+    <territory name="Darien"/>
+    <territory name="Perimeter"/>
+    <territory name="Meer"/>
+    <territory name="Arinam"/>
+    <territory name="Muaat"/>
+    <territory name="Capha"/>
+    <territory name="Lesab"/>
+    <territory name="Primor"/>
+    <territory name="Saudor"/>
+    <territory name="Abaddon"/>
+    <territory name="Loki"/>
+    <territory name="Ashtroth"/>
+    <territory name="Arcturus"/>
+    <territory name="Tsion"/>
+    <territory name="Rigel I"/>
+    <territory name="Rigel II"/>
+    <territory name="Rigel III"/>
+    <territory name="Mecatol Rex"/>
+    <territory name="Jumpgate Nexus"/>
+    <territory name="Gy"/>
+    <territory name="Gg"/>
+    <territory name="Gr"/>
+    <territory name="Gbl"/>
+    <territory name="Gbr"/>
+    <!-- Territory Connections -->
+    <connection t1="Sector 1" t2="Sector 20"/>
+    <connection t1="Sector 1" t2="Sector 2"/>
+    <connection t1="Sector 1" t2="Sector 21"/>
+    <connection t1="Sector 2" t2="Sector 3"/>
+    <connection t1="Sector 2" t2="Sector 21"/>
+    <connection t1="Sector 3" t2="Sector 21"/>
+    <connection t1="Sector 3" t2="Sector 22"/>
+    <connection t1="Sector 3" t2="Sector 23"/>
+    <connection t1="Sector 3" t2="Sector 4"/>
+    <connection t1="Sector 4" t2="Sector 5"/>
+    <connection t1="Sector 4" t2="Sector 6"/>
+    <connection t1="Sector 4" t2="Sector 7"/>
+    <connection t1="Sector 4" t2="Sector 23"/>
+    <connection t1="Sector 5" t2="Sector 6"/>
+    <connection t1="Sector 6" t2="Sector 7"/>
+    <connection t1="Sector 7" t2="Sector 23"/>
+    <connection t1="Sector 7" t2="Sector 24"/>
+    <connection t1="Sector 7" t2="Sector 8"/>
+    <connection t1="Sector 8" t2="Sector 24"/>
+    <connection t1="Sector 8" t2="Sector 25"/>
+    <connection t1="Sector 8" t2="Sector 9"/>
+    <connection t1="Sector 9" t2="Sector 10"/>
+    <connection t1="Sector 9" t2="Sector 25"/>
+    <connection t1="Sector 10" t2="Sector 11"/>
+    <connection t1="Sector 10" t2="Sector 25"/>
+    <connection t1="Sector 11" t2="Sector 12"/>
+    <connection t1="Sector 11" t2="Sector 25"/>
+    <connection t1="Sector 11" t2="Sector 26"/>
+    <connection t1="Sector 12" t2="Sector 13"/>
+    <connection t1="Sector 12" t2="Sector 26"/>
+    <connection t1="Sector 13" t2="Sector 14"/>
+    <connection t1="Sector 13" t2="Sector 26"/>
+    <connection t1="Sector 14" t2="Sector 15"/>
+    <connection t1="Sector 14" t2="Sector 26"/>
+    <connection t1="Sector 14" t2="Sector 27"/>
+    <connection t1="Sector 15" t2="Sector 16"/>
+    <connection t1="Sector 15" t2="Sector 18"/>
+    <connection t1="Sector 15" t2="Sector 28"/>
+    <connection t1="Sector 15" t2="Sector 27"/>
+    <connection t1="Sector 16" t2="Sector 17"/>
+    <connection t1="Sector 16" t2="Sector 18"/>
+    <connection t1="Sector 17" t2="Sector 18"/>
+    <connection t1="Sector 18" t2="Sector 19"/>
+    <connection t1="Sector 18" t2="Sector 28"/>
+    <connection t1="Sector 19" t2="Sector 20"/>
+    <connection t1="Sector 19" t2="Sector 21"/>
+    <connection t1="Sector 19" t2="Sector 22"/>
+    <connection t1="Sector 19" t2="Sector 28"/>
+    <connection t1="Sector 20" t2="Sector 21"/>
+    <connection t1="Sector 21" t2="Sector 22"/>
+    <connection t1="Sector 22" t2="Sector 23"/>
+    <connection t1="Sector 22" t2="Sector 29"/>
+    <connection t1="Sector 22" t2="Sector 28"/>
+    <connection t1="Sector 23" t2="Sector 24"/>
+    <connection t1="Sector 23" t2="Sector 29"/>
+    <connection t1="Sector 24" t2="Sector 25"/>
+    <connection t1="Sector 24" t2="Sector 29"/>
+    <connection t1="Sector 26" t2="Sector 27"/>
+    <connection t1="Sector 27" t2="Sector 28"/>
+    <connection t1="Sector 27" t2="Sector 29"/>
+    <connection t1="Sector 28" t2="Sector 29"/>
+    <connection t1="Sector 7" t2="Sector 15"/>
+    <connection t1="Sector 22" t2="Sector 11"/>
+    <connection t1="Sector 30" t2="Sector 7"/>
+    <connection t1="Sector 30" t2="Sector 11"/>
+    <connection t1="Sector 30" t2="Sector 15"/>
+    <connection t1="Sector 30" t2="Sector 22"/>
+    <connection t1="Winnu" t2="Sector 1"/>
+    <connection t1="Zohbat" t2="Sector 2"/>
+    <connection t1="Mellon" t2="Sector 2"/>
+    <connection t1="Garbozia" t2="Sector 4"/>
+    <connection t1="Lisis II" t2="Sector 5"/>
+    <connection t1="Ragh" t2="Sector 5"/>
+    <connection t1="Lor" t2="Sector 6"/>
+    <connection t1="Arnor" t2="Sector 6"/>
+    <connection t1="Mirage" t2="Sector 8"/>
+    <connection t1="Moll Primus" t2="Sector 9"/>
+    <connection t1="Abyz" t2="Sector 10"/>
+    <connection t1="Fria" t2="Sector 10"/>
+    <connection t1="Bereg" t2="Sector 12"/>
+    <connection t1="Lirta IV" t2="Sector 12"/>
+    <connection t1="Darien" t2="Sector 13"/>
+    <connection t1="Perimeter" t2="Sector 14"/>
+    <connection t1="Meer" t2="Sector 16"/>
+    <connection t1="Arinam" t2="Sector 16"/>
+    <connection t1="Muaat" t2="Sector 17"/>
+    <connection t1="Capha" t2="Sector 18"/>
+    <connection t1="Lesab" t2="Sector 20"/>
+    <connection t1="Primor" t2="Sector 21"/>
+    <connection t1="Saudor" t2="Sector 22"/>
+    <connection t1="Abaddon" t2="Sector 23"/>
+    <connection t1="Loki" t2="Sector 23"/>
+    <connection t1="Ashtroth" t2="Sector 23"/>
+    <connection t1="Arcturus" t2="Sector 24"/>
+    <connection t1="Tsion" t2="Sector 27"/>
+    <connection t1="Rigel I" t2="Sector 28"/>
+    <connection t1="Rigel II" t2="Sector 28"/>
+    <connection t1="Rigel III" t2="Sector 28"/>
+    <connection t1="Mecatol Rex" t2="Sector 29"/>
+    <connection t1="Jumpgate Nexus" t2="Sector 30"/>
+    <connection t1="CY" t2="TY"/>
+    <connection t1="CY" t2="FY"/>
+    <connection t1="CY" t2="InY"/>
+    <connection t1="CY" t2="IpY"/>
+    <connection t1="CY" t2="VY"/>
+    <connection t1="TY" t2="FY"/>
+    <connection t1="CG" t2="TG"/>
+    <connection t1="CG" t2="FG"/>
+    <connection t1="CG" t2="InG"/>
+    <connection t1="CG" t2="IpG"/>
+    <connection t1="CG" t2="VG"/>
+    <connection t1="TG" t2="FG"/>
+    <connection t1="CR" t2="TR"/>
+    <connection t1="CR" t2="FR"/>
+    <connection t1="CR" t2="InR"/>
+    <connection t1="CR" t2="IpR"/>
+    <connection t1="CR" t2="VR"/>
+    <connection t1="TR" t2="FR"/>
+    <connection t1="CBr" t2="TBr"/>
+    <connection t1="CBr" t2="FBr"/>
+    <connection t1="CBr" t2="InBr"/>
+    <connection t1="CBr" t2="IpBr"/>
+    <connection t1="CBr" t2="VBr"/>
+    <connection t1="TBr" t2="FBr"/>
+    <connection t1="CBl" t2="TBl"/>
+    <connection t1="CBl" t2="FBl"/>
+    <connection t1="CBl" t2="InBl"/>
+    <connection t1="CBl" t2="IpBl"/>
+    <connection t1="CBl" t2="VBl"/>
+    <connection t1="TBl" t2="FBl"/>
+    <connection t1="Gy" t2="Winnu"/>
+    <connection t1="Gy" t2="Zohbat"/>
+    <connection t1="Gy" t2="Lesab"/>
+    <connection t1="Gy" t2="Primor"/>
+    <connection t1="Gy" t2="Saudor"/>
+    <connection t1="Gy" t2="Mecatol Rex"/>
+    <connection t1="Gy" t2="Rigel II"/>
+    <connection t1="Gy" t2="Rigel III"/>
+    <connection t1="Gy" t2="Capha"/>
+    <connection t1="Gy" t2="Muaat"/>
+    <connection t1="Gy" t2="Arinam"/>
+    <connection t1="Gy" t2="Abaddon"/>
+    <connection t1="Gy" t2="Loki"/>
+    <connection t1="Gy" t2="Ashtroth"/>
+    <connection t1="Gy" t2="Garbozia"/>
+    <connection t1="Gy" t2="Lisis II"/>
+    <connection t1="Gy" t2="Ragh"/>
+    <connection t1="Gy" t2="Lor"/>
+    <connection t1="Gy" t2="Arnor"/>
+    <connection t1="Gy" t2="Tsion"/>
+    <connection t1="Gy" t2="Arcturus"/>
+    <connection t1="Gy" t2="Perimeter"/>
+    <connection t1="Gy" t2="Mirage"/>
+    <connection t1="Gy" t2="Moll Primus"/>
+    <connection t1="Gy" t2="Abyz"/>
+    <connection t1="Gy" t2="Fria"/>
+    <connection t1="Gy" t2="Darien"/>
+    <connection t1="Gy" t2="Bereg"/>
+    <connection t1="Gy" t2="Lirta IV"/>
+    <connection t1="Gr" t2="Winnu"/>
+    <connection t1="Gr" t2="Zohbat"/>
+    <connection t1="Gr" t2="Lesab"/>
+    <connection t1="Gr" t2="Primor"/>
+    <connection t1="Gr" t2="Saudor"/>
+    <connection t1="Gr" t2="Mecatol Rex"/>
+    <connection t1="Gr" t2="Rigel II"/>
+    <connection t1="Gr" t2="Rigel III"/>
+    <connection t1="Gr" t2="Capha"/>
+    <connection t1="Gr" t2="Muaat"/>
+    <connection t1="Gr" t2="Arinam"/>
+    <connection t1="Gr" t2="Abaddon"/>
+    <connection t1="Gr" t2="Loki"/>
+    <connection t1="Gr" t2="Ashtroth"/>
+    <connection t1="Gr" t2="Garbozia"/>
+    <connection t1="Gr" t2="Lisis II"/>
+    <connection t1="Gr" t2="Ragh"/>
+    <connection t1="Gr" t2="Lor"/>
+    <connection t1="Gr" t2="Arnor"/>
+    <connection t1="Gr" t2="Tsion"/>
+    <connection t1="Gr" t2="Arcturus"/>
+    <connection t1="Gr" t2="Perimeter"/>
+    <connection t1="Gr" t2="Mirage"/>
+    <connection t1="Gr" t2="Moll Primus"/>
+    <connection t1="Gr" t2="Abyz"/>
+    <connection t1="Gr" t2="Fria"/>
+    <connection t1="Gr" t2="Darien"/>
+    <connection t1="Gr" t2="Bereg"/>
+    <connection t1="Gr" t2="Lirta IV"/>
+    <connection t1="Gg" t2="Winnu"/>
+    <connection t1="Gg" t2="Zohbat"/>
+    <connection t1="Gg" t2="Lesab"/>
+    <connection t1="Gg" t2="Primor"/>
+    <connection t1="Gg" t2="Saudor"/>
+    <connection t1="Gg" t2="Mecatol Rex"/>
+    <connection t1="Gg" t2="Rigel II"/>
+    <connection t1="Gg" t2="Rigel III"/>
+    <connection t1="Gg" t2="Capha"/>
+    <connection t1="Gg" t2="Muaat"/>
+    <connection t1="Gg" t2="Arinam"/>
+    <connection t1="Gg" t2="Abaddon"/>
+    <connection t1="Gg" t2="Loki"/>
+    <connection t1="Gg" t2="Ashtroth"/>
+    <connection t1="Gg" t2="Garbozia"/>
+    <connection t1="Gg" t2="Lisis II"/>
+    <connection t1="Gg" t2="Ragh"/>
+    <connection t1="Gg" t2="Lor"/>
+    <connection t1="Gg" t2="Arnor"/>
+    <connection t1="Gg" t2="Tsion"/>
+    <connection t1="Gg" t2="Arcturus"/>
+    <connection t1="Gg" t2="Perimeter"/>
+    <connection t1="Gg" t2="Mirage"/>
+    <connection t1="Gg" t2="Moll Primus"/>
+    <connection t1="Gg" t2="Abyz"/>
+    <connection t1="Gg" t2="Fria"/>
+    <connection t1="Gg" t2="Darien"/>
+    <connection t1="Gg" t2="Bereg"/>
+    <connection t1="Gg" t2="Lirta IV"/>
+    <connection t1="Gbl" t2="Winnu"/>
+    <connection t1="Gbl" t2="Zohbat"/>
+    <connection t1="Gbl" t2="Lesab"/>
+    <connection t1="Gbl" t2="Primor"/>
+    <connection t1="Gbl" t2="Saudor"/>
+    <connection t1="Gbl" t2="Mecatol Rex"/>
+    <connection t1="Gbl" t2="Rigel II"/>
+    <connection t1="Gbl" t2="Rigel III"/>
+    <connection t1="Gbl" t2="Capha"/>
+    <connection t1="Gbl" t2="Muaat"/>
+    <connection t1="Gbl" t2="Arinam"/>
+    <connection t1="Gbl" t2="Abaddon"/>
+    <connection t1="Gbl" t2="Loki"/>
+    <connection t1="Gbl" t2="Ashtroth"/>
+    <connection t1="Gbl" t2="Garbozia"/>
+    <connection t1="Gbl" t2="Lisis II"/>
+    <connection t1="Gbl" t2="Ragh"/>
+    <connection t1="Gbl" t2="Lor"/>
+    <connection t1="Gbl" t2="Arnor"/>
+    <connection t1="Gbl" t2="Tsion"/>
+    <connection t1="Gbl" t2="Arcturus"/>
+    <connection t1="Gbl" t2="Perimeter"/>
+    <connection t1="Gbl" t2="Mirage"/>
+    <connection t1="Gbl" t2="Moll Primus"/>
+    <connection t1="Gbl" t2="Abyz"/>
+    <connection t1="Gbl" t2="Fria"/>
+    <connection t1="Gbl" t2="Darien"/>
+    <connection t1="Gbl" t2="Bereg"/>
+    <connection t1="Gbl" t2="Lirta IV"/>
+    <connection t1="Gbr" t2="Winnu"/>
+    <connection t1="Gbr" t2="Zohbat"/>
+    <connection t1="Gbr" t2="Lesab"/>
+    <connection t1="Gbr" t2="Primor"/>
+    <connection t1="Gbr" t2="Saudor"/>
+    <connection t1="Gbr" t2="Mecatol Rex"/>
+    <connection t1="Gbr" t2="Rigel II"/>
+    <connection t1="Gbr" t2="Rigel III"/>
+    <connection t1="Gbr" t2="Capha"/>
+    <connection t1="Gbr" t2="Muaat"/>
+    <connection t1="Gbr" t2="Arinam"/>
+    <connection t1="Gbr" t2="Abaddon"/>
+    <connection t1="Gbr" t2="Loki"/>
+    <connection t1="Gbr" t2="Ashtroth"/>
+    <connection t1="Gbr" t2="Garbozia"/>
+    <connection t1="Gbr" t2="Lisis II"/>
+    <connection t1="Gbr" t2="Ragh"/>
+    <connection t1="Gbr" t2="Lor"/>
+    <connection t1="Gbr" t2="Arnor"/>
+    <connection t1="Gbr" t2="Tsion"/>
+    <connection t1="Gbr" t2="Arcturus"/>
+    <connection t1="Gbr" t2="Perimeter"/>
+    <connection t1="Gbr" t2="Mirage"/>
+    <connection t1="Gbr" t2="Moll Primus"/>
+    <connection t1="Gbr" t2="Abyz"/>
+    <connection t1="Gbr" t2="Fria"/>
+    <connection t1="Gbr" t2="Darien"/>
+    <connection t1="Gbr" t2="Bereg"/>
+    <connection t1="Gbr" t2="Lirta IV"/>
+    <connection t1="Sy" t2="Sector 1"/>
+    <connection t1="Sy" t2="Sector 2"/>
+    <connection t1="Sy" t2="Sector 4"/>
+    <connection t1="Sy" t2="Sector 5"/>
+    <connection t1="Sy" t2="Sector 6"/>
+    <connection t1="Sy" t2="Sector 8"/>
+    <connection t1="Sy" t2="Sector 9"/>
+    <connection t1="Sy" t2="Sector 10"/>
+    <connection t1="Sy" t2="Sector 12"/>
+    <connection t1="Sy" t2="Sector 13"/>
+    <connection t1="Sy" t2="Sector 14"/>
+    <connection t1="Sy" t2="Sector 16"/>
+    <connection t1="Sy" t2="Sector 17"/>
+    <connection t1="Sy" t2="Sector 18"/>
+    <connection t1="Sy" t2="Sector 20"/>
+    <connection t1="Sy" t2="Sector 21"/>
+    <connection t1="Sy" t2="Sector 22"/>
+    <connection t1="Sy" t2="Sector 23"/>
+    <connection t1="Sy" t2="Sector 24"/>
+    <connection t1="Sy" t2="Sector 27"/>
+    <connection t1="Sy" t2="Sector 28"/>
+    <connection t1="Sy" t2="Sector 29"/>
+    <connection t1="Sg" t2="Sector 1"/>
+    <connection t1="Sg" t2="Sector 2"/>
+    <connection t1="Sg" t2="Sector 4"/>
+    <connection t1="Sg" t2="Sector 5"/>
+    <connection t1="Sg" t2="Sector 6"/>
+    <connection t1="Sg" t2="Sector 8"/>
+    <connection t1="Sg" t2="Sector 9"/>
+    <connection t1="Sg" t2="Sector 10"/>
+    <connection t1="Sg" t2="Sector 12"/>
+    <connection t1="Sg" t2="Sector 13"/>
+    <connection t1="Sg" t2="Sector 14"/>
+    <connection t1="Sg" t2="Sector 16"/>
+    <connection t1="Sg" t2="Sector 17"/>
+    <connection t1="Sg" t2="Sector 18"/>
+    <connection t1="Sg" t2="Sector 20"/>
+    <connection t1="Sg" t2="Sector 21"/>
+    <connection t1="Sg" t2="Sector 22"/>
+    <connection t1="Sg" t2="Sector 23"/>
+    <connection t1="Sg" t2="Sector 24"/>
+    <connection t1="Sg" t2="Sector 27"/>
+    <connection t1="Sg" t2="Sector 28"/>
+    <connection t1="Sg" t2="Sector 29"/>
+    <connection t1="Sr" t2="Sector 1"/>
+    <connection t1="Sr" t2="Sector 2"/>
+    <connection t1="Sr" t2="Sector 4"/>
+    <connection t1="Sr" t2="Sector 5"/>
+    <connection t1="Sr" t2="Sector 6"/>
+    <connection t1="Sr" t2="Sector 8"/>
+    <connection t1="Sr" t2="Sector 9"/>
+    <connection t1="Sr" t2="Sector 10"/>
+    <connection t1="Sr" t2="Sector 12"/>
+    <connection t1="Sr" t2="Sector 13"/>
+    <connection t1="Sr" t2="Sector 14"/>
+    <connection t1="Sr" t2="Sector 16"/>
+    <connection t1="Sr" t2="Sector 17"/>
+    <connection t1="Sr" t2="Sector 18"/>
+    <connection t1="Sr" t2="Sector 20"/>
+    <connection t1="Sr" t2="Sector 21"/>
+    <connection t1="Sr" t2="Sector 22"/>
+    <connection t1="Sr" t2="Sector 23"/>
+    <connection t1="Sr" t2="Sector 24"/>
+    <connection t1="Sr" t2="Sector 27"/>
+    <connection t1="Sr" t2="Sector 28"/>
+    <connection t1="Sr" t2="Sector 29"/>
+    <connection t1="Sbr" t2="Sector 1"/>
+    <connection t1="Sbr" t2="Sector 2"/>
+    <connection t1="Sbr" t2="Sector 4"/>
+    <connection t1="Sbr" t2="Sector 5"/>
+    <connection t1="Sbr" t2="Sector 6"/>
+    <connection t1="Sbr" t2="Sector 8"/>
+    <connection t1="Sbr" t2="Sector 9"/>
+    <connection t1="Sbr" t2="Sector 10"/>
+    <connection t1="Sbr" t2="Sector 12"/>
+    <connection t1="Sbr" t2="Sector 13"/>
+    <connection t1="Sbr" t2="Sector 14"/>
+    <connection t1="Sbr" t2="Sector 16"/>
+    <connection t1="Sbr" t2="Sector 17"/>
+    <connection t1="Sbr" t2="Sector 18"/>
+    <connection t1="Sbr" t2="Sector 20"/>
+    <connection t1="Sbr" t2="Sector 21"/>
+    <connection t1="Sbr" t2="Sector 22"/>
+    <connection t1="Sbr" t2="Sector 23"/>
+    <connection t1="Sbr" t2="Sector 24"/>
+    <connection t1="Sbr" t2="Sector 27"/>
+    <connection t1="Sbr" t2="Sector 28"/>
+    <connection t1="Sbr" t2="Sector 29"/>
+    <connection t1="Sbl" t2="Sector 1"/>
+    <connection t1="Sbl" t2="Sector 2"/>
+    <connection t1="Sbl" t2="Sector 4"/>
+    <connection t1="Sbl" t2="Sector 5"/>
+    <connection t1="Sbl" t2="Sector 6"/>
+    <connection t1="Sbl" t2="Sector 8"/>
+    <connection t1="Sbl" t2="Sector 9"/>
+    <connection t1="Sbl" t2="Sector 10"/>
+    <connection t1="Sbl" t2="Sector 12"/>
+    <connection t1="Sbl" t2="Sector 13"/>
+    <connection t1="Sbl" t2="Sector 14"/>
+    <connection t1="Sbl" t2="Sector 16"/>
+    <connection t1="Sbl" t2="Sector 17"/>
+    <connection t1="Sbl" t2="Sector 18"/>
+    <connection t1="Sbl" t2="Sector 20"/>
+    <connection t1="Sbl" t2="Sector 21"/>
+    <connection t1="Sbl" t2="Sector 22"/>
+    <connection t1="Sbl" t2="Sector 23"/>
+    <connection t1="Sbl" t2="Sector 24"/>
+    <connection t1="Sbl" t2="Sector 27"/>
+    <connection t1="Sbl" t2="Sector 28"/>
+    <connection t1="Sbl" t2="Sector 29"/>
+    <connection t1="CY" t2="Vc1a"/>
+    <connection t1="CY" t2="Vc1b"/>
+    <connection t1="CY" t2="Vc1c"/>
+    <connection t1="CY" t2="Vc1d"/>
+    <connection t1="CY" t2="Vc1e"/>
+    <connection t1="CY" t2="Vc2a"/>
+    <connection t1="CY" t2="Vc2b"/>
+    <connection t1="CY" t2="Vc2c"/>
+    <connection t1="CY" t2="Vc2d"/>
+    <connection t1="CY" t2="Vc2e"/>
+    <connection t1="CY" t2="Vc3a"/>
+    <connection t1="CY" t2="Vc3b"/>
+    <connection t1="CY" t2="Vc3c"/>
+    <connection t1="CY" t2="Vc3d"/>
+    <connection t1="CY" t2="Vc3e"/>
+    <connection t1="CY" t2="Vc4a"/>
+    <connection t1="CY" t2="Vc4b"/>
+    <connection t1="CY" t2="Vc4c"/>
+    <connection t1="CY" t2="Vc4d"/>
+    <connection t1="CY" t2="Vc4e"/>
+    <connection t1="CY" t2="Vc5a"/>
+    <connection t1="CY" t2="Vc5b"/>
+    <connection t1="CY" t2="Vc5c"/>
+    <connection t1="CY" t2="Vc5d"/>
+    <connection t1="CY" t2="Vc5e"/>
+    <connection t1="CY" t2="Vc6a"/>
+    <connection t1="CY" t2="Vc6b"/>
+    <connection t1="CY" t2="Vc6c"/>
+    <connection t1="CY" t2="Vc6d"/>
+    <connection t1="CY" t2="Vc6e"/>
+    <connection t1="CY" t2="Vc7a"/>
+    <connection t1="CY" t2="Vc7b"/>
+    <connection t1="CY" t2="Vc7c"/>
+    <connection t1="CY" t2="Vc7d"/>
+    <connection t1="CY" t2="Vc7e"/>
+    <connection t1="CY" t2="Vc8a"/>
+    <connection t1="CY" t2="Vc8b"/>
+    <connection t1="CY" t2="Vc8c"/>
+    <connection t1="CY" t2="Vc8d"/>
+    <connection t1="CY" t2="Vc8e"/>
+    <connection t1="CY" t2="Vc9a"/>
+    <connection t1="CY" t2="Vc9b"/>
+    <connection t1="CY" t2="Vc9c"/>
+    <connection t1="CY" t2="Vc9d"/>
+    <connection t1="CY" t2="Vc9e"/>
+    <connection t1="CY" t2="Vc10a"/>
+    <connection t1="CY" t2="Vc10b"/>
+    <connection t1="CY" t2="Vc10c"/>
+    <connection t1="CY" t2="Vc10d"/>
+    <connection t1="CY" t2="Vc10e"/>
+    <connection t1="CY" t2="Vc11a"/>
+    <connection t1="CY" t2="Vc11b"/>
+    <connection t1="CY" t2="Vc11c"/>
+    <connection t1="CY" t2="Vc11d"/>
+    <connection t1="CY" t2="Vc11e"/>
+    <connection t1="CY" t2="Vc12a"/>
+    <connection t1="CY" t2="Vc12b"/>
+    <connection t1="CY" t2="Vc12c"/>
+    <connection t1="CY" t2="Vc12d"/>
+    <connection t1="CY" t2="Vc12e"/>
+    <connection t1="CY" t2="Vc13a"/>
+    <connection t1="CY" t2="Vc13b"/>
+    <connection t1="CY" t2="Vc13c"/>
+    <connection t1="CY" t2="Vc13d"/>
+    <connection t1="CY" t2="Vc13e"/>
+    <connection t1="CY" t2="Vc14a"/>
+    <connection t1="CY" t2="Vc14b"/>
+    <connection t1="CY" t2="Vc14c"/>
+    <connection t1="CY" t2="Vc14d"/>
+    <connection t1="CY" t2="Vc14e"/>
+    <connection t1="CY" t2="Vc15a"/>
+    <connection t1="CY" t2="Vc15b"/>
+    <connection t1="CY" t2="Vc15c"/>
+    <connection t1="CY" t2="Vc15d"/>
+    <connection t1="CY" t2="Vc15e"/>
+    <connection t1="CY" t2="Vc16a"/>
+    <connection t1="CY" t2="Vc16b"/>
+    <connection t1="CY" t2="Vc16c"/>
+    <connection t1="CY" t2="Vc16d"/>
+    <connection t1="CY" t2="Vc16e"/>
+    <connection t1="CY" t2="Vc17a"/>
+    <connection t1="CY" t2="Vc17b"/>
+    <connection t1="CY" t2="Vc17c"/>
+    <connection t1="CY" t2="Vc17d"/>
+    <connection t1="CY" t2="Vc17e"/>
+    <connection t1="CY" t2="Vc18a"/>
+    <connection t1="CY" t2="Vc18b"/>
+    <connection t1="CY" t2="Vc18c"/>
+    <connection t1="CY" t2="Vc18d"/>
+    <connection t1="CY" t2="Vc18e"/>
+    <connection t1="CG" t2="Vc1a"/>
+    <connection t1="CG" t2="Vc1b"/>
+    <connection t1="CG" t2="Vc1c"/>
+    <connection t1="CG" t2="Vc1d"/>
+    <connection t1="CG" t2="Vc1e"/>
+    <connection t1="CG" t2="Vc2a"/>
+    <connection t1="CG" t2="Vc2b"/>
+    <connection t1="CG" t2="Vc2c"/>
+    <connection t1="CG" t2="Vc2d"/>
+    <connection t1="CG" t2="Vc2e"/>
+    <connection t1="CG" t2="Vc3a"/>
+    <connection t1="CG" t2="Vc3b"/>
+    <connection t1="CG" t2="Vc3c"/>
+    <connection t1="CG" t2="Vc3d"/>
+    <connection t1="CG" t2="Vc3e"/>
+    <connection t1="CG" t2="Vc4a"/>
+    <connection t1="CG" t2="Vc4b"/>
+    <connection t1="CG" t2="Vc4c"/>
+    <connection t1="CG" t2="Vc4d"/>
+    <connection t1="CG" t2="Vc4e"/>
+    <connection t1="CG" t2="Vc5a"/>
+    <connection t1="CG" t2="Vc5b"/>
+    <connection t1="CG" t2="Vc5c"/>
+    <connection t1="CG" t2="Vc5d"/>
+    <connection t1="CG" t2="Vc5e"/>
+    <connection t1="CG" t2="Vc6a"/>
+    <connection t1="CG" t2="Vc6b"/>
+    <connection t1="CG" t2="Vc6c"/>
+    <connection t1="CG" t2="Vc6d"/>
+    <connection t1="CG" t2="Vc6e"/>
+    <connection t1="CG" t2="Vc7a"/>
+    <connection t1="CG" t2="Vc7b"/>
+    <connection t1="CG" t2="Vc7c"/>
+    <connection t1="CG" t2="Vc7d"/>
+    <connection t1="CG" t2="Vc7e"/>
+    <connection t1="CG" t2="Vc8a"/>
+    <connection t1="CG" t2="Vc8b"/>
+    <connection t1="CG" t2="Vc8c"/>
+    <connection t1="CG" t2="Vc8d"/>
+    <connection t1="CG" t2="Vc8e"/>
+    <connection t1="CG" t2="Vc9a"/>
+    <connection t1="CG" t2="Vc9b"/>
+    <connection t1="CG" t2="Vc9c"/>
+    <connection t1="CG" t2="Vc9d"/>
+    <connection t1="CG" t2="Vc9e"/>
+    <connection t1="CG" t2="Vc10a"/>
+    <connection t1="CG" t2="Vc10b"/>
+    <connection t1="CG" t2="Vc10c"/>
+    <connection t1="CG" t2="Vc10d"/>
+    <connection t1="CG" t2="Vc10e"/>
+    <connection t1="CG" t2="Vc11a"/>
+    <connection t1="CG" t2="Vc11b"/>
+    <connection t1="CG" t2="Vc11c"/>
+    <connection t1="CG" t2="Vc11d"/>
+    <connection t1="CG" t2="Vc11e"/>
+    <connection t1="CG" t2="Vc12a"/>
+    <connection t1="CG" t2="Vc12b"/>
+    <connection t1="CG" t2="Vc12c"/>
+    <connection t1="CG" t2="Vc12d"/>
+    <connection t1="CG" t2="Vc12e"/>
+    <connection t1="CG" t2="Vc13a"/>
+    <connection t1="CG" t2="Vc13b"/>
+    <connection t1="CG" t2="Vc13c"/>
+    <connection t1="CG" t2="Vc13d"/>
+    <connection t1="CG" t2="Vc13e"/>
+    <connection t1="CG" t2="Vc14a"/>
+    <connection t1="CG" t2="Vc14b"/>
+    <connection t1="CG" t2="Vc14c"/>
+    <connection t1="CG" t2="Vc14d"/>
+    <connection t1="CG" t2="Vc14e"/>
+    <connection t1="CG" t2="Vc15a"/>
+    <connection t1="CG" t2="Vc15b"/>
+    <connection t1="CG" t2="Vc15c"/>
+    <connection t1="CG" t2="Vc15d"/>
+    <connection t1="CG" t2="Vc15e"/>
+    <connection t1="CG" t2="Vc16a"/>
+    <connection t1="CG" t2="Vc16b"/>
+    <connection t1="CG" t2="Vc16c"/>
+    <connection t1="CG" t2="Vc16d"/>
+    <connection t1="CG" t2="Vc16e"/>
+    <connection t1="CG" t2="Vc17a"/>
+    <connection t1="CG" t2="Vc17b"/>
+    <connection t1="CG" t2="Vc17c"/>
+    <connection t1="CG" t2="Vc17d"/>
+    <connection t1="CG" t2="Vc17e"/>
+    <connection t1="CG" t2="Vc18a"/>
+    <connection t1="CG" t2="Vc18b"/>
+    <connection t1="CG" t2="Vc18c"/>
+    <connection t1="CG" t2="Vc18d"/>
+    <connection t1="CG" t2="Vc18e"/>
+    <connection t1="CR" t2="Vc1a"/>
+    <connection t1="CR" t2="Vc1b"/>
+    <connection t1="CR" t2="Vc1c"/>
+    <connection t1="CR" t2="Vc1d"/>
+    <connection t1="CR" t2="Vc1e"/>
+    <connection t1="CR" t2="Vc2a"/>
+    <connection t1="CR" t2="Vc2b"/>
+    <connection t1="CR" t2="Vc2c"/>
+    <connection t1="CR" t2="Vc2d"/>
+    <connection t1="CR" t2="Vc2e"/>
+    <connection t1="CR" t2="Vc3a"/>
+    <connection t1="CR" t2="Vc3b"/>
+    <connection t1="CR" t2="Vc3c"/>
+    <connection t1="CR" t2="Vc3d"/>
+    <connection t1="CR" t2="Vc3e"/>
+    <connection t1="CR" t2="Vc4a"/>
+    <connection t1="CR" t2="Vc4b"/>
+    <connection t1="CR" t2="Vc4c"/>
+    <connection t1="CR" t2="Vc4d"/>
+    <connection t1="CR" t2="Vc4e"/>
+    <connection t1="CR" t2="Vc5a"/>
+    <connection t1="CR" t2="Vc5b"/>
+    <connection t1="CR" t2="Vc5c"/>
+    <connection t1="CR" t2="Vc5d"/>
+    <connection t1="CR" t2="Vc5e"/>
+    <connection t1="CR" t2="Vc6a"/>
+    <connection t1="CR" t2="Vc6b"/>
+    <connection t1="CR" t2="Vc6c"/>
+    <connection t1="CR" t2="Vc6d"/>
+    <connection t1="CR" t2="Vc6e"/>
+    <connection t1="CR" t2="Vc7a"/>
+    <connection t1="CR" t2="Vc7b"/>
+    <connection t1="CR" t2="Vc7c"/>
+    <connection t1="CR" t2="Vc7d"/>
+    <connection t1="CR" t2="Vc7e"/>
+    <connection t1="CR" t2="Vc8a"/>
+    <connection t1="CR" t2="Vc8b"/>
+    <connection t1="CR" t2="Vc8c"/>
+    <connection t1="CR" t2="Vc8d"/>
+    <connection t1="CR" t2="Vc8e"/>
+    <connection t1="CR" t2="Vc9a"/>
+    <connection t1="CR" t2="Vc9b"/>
+    <connection t1="CR" t2="Vc9c"/>
+    <connection t1="CR" t2="Vc9d"/>
+    <connection t1="CR" t2="Vc9e"/>
+    <connection t1="CR" t2="Vc10a"/>
+    <connection t1="CR" t2="Vc10b"/>
+    <connection t1="CR" t2="Vc10c"/>
+    <connection t1="CR" t2="Vc10d"/>
+    <connection t1="CR" t2="Vc10e"/>
+    <connection t1="CR" t2="Vc11a"/>
+    <connection t1="CR" t2="Vc11b"/>
+    <connection t1="CR" t2="Vc11c"/>
+    <connection t1="CR" t2="Vc11d"/>
+    <connection t1="CR" t2="Vc11e"/>
+    <connection t1="CR" t2="Vc12a"/>
+    <connection t1="CR" t2="Vc12b"/>
+    <connection t1="CR" t2="Vc12c"/>
+    <connection t1="CR" t2="Vc12d"/>
+    <connection t1="CR" t2="Vc12e"/>
+    <connection t1="CR" t2="Vc13a"/>
+    <connection t1="CR" t2="Vc13b"/>
+    <connection t1="CR" t2="Vc13c"/>
+    <connection t1="CR" t2="Vc13d"/>
+    <connection t1="CR" t2="Vc13e"/>
+    <connection t1="CR" t2="Vc14a"/>
+    <connection t1="CR" t2="Vc14b"/>
+    <connection t1="CR" t2="Vc14c"/>
+    <connection t1="CR" t2="Vc14d"/>
+    <connection t1="CR" t2="Vc14e"/>
+    <connection t1="CR" t2="Vc15a"/>
+    <connection t1="CR" t2="Vc15b"/>
+    <connection t1="CR" t2="Vc15c"/>
+    <connection t1="CR" t2="Vc15d"/>
+    <connection t1="CR" t2="Vc15e"/>
+    <connection t1="CR" t2="Vc16a"/>
+    <connection t1="CR" t2="Vc16b"/>
+    <connection t1="CR" t2="Vc16c"/>
+    <connection t1="CR" t2="Vc16d"/>
+    <connection t1="CR" t2="Vc16e"/>
+    <connection t1="CR" t2="Vc17a"/>
+    <connection t1="CR" t2="Vc17b"/>
+    <connection t1="CR" t2="Vc17c"/>
+    <connection t1="CR" t2="Vc17d"/>
+    <connection t1="CR" t2="Vc17e"/>
+    <connection t1="CR" t2="Vc18a"/>
+    <connection t1="CR" t2="Vc18b"/>
+    <connection t1="CR" t2="Vc18c"/>
+    <connection t1="CR" t2="Vc18d"/>
+    <connection t1="CR" t2="Vc18e"/>
+    <connection t1="CBr" t2="Vc1a"/>
+    <connection t1="CBr" t2="Vc1b"/>
+    <connection t1="CBr" t2="Vc1c"/>
+    <connection t1="CBr" t2="Vc1d"/>
+    <connection t1="CBr" t2="Vc1e"/>
+    <connection t1="CBr" t2="Vc2a"/>
+    <connection t1="CBr" t2="Vc2b"/>
+    <connection t1="CBr" t2="Vc2c"/>
+    <connection t1="CBr" t2="Vc2d"/>
+    <connection t1="CBr" t2="Vc2e"/>
+    <connection t1="CBr" t2="Vc3a"/>
+    <connection t1="CBr" t2="Vc3b"/>
+    <connection t1="CBr" t2="Vc3c"/>
+    <connection t1="CBr" t2="Vc3d"/>
+    <connection t1="CBr" t2="Vc3e"/>
+    <connection t1="CBr" t2="Vc4a"/>
+    <connection t1="CBr" t2="Vc4b"/>
+    <connection t1="CBr" t2="Vc4c"/>
+    <connection t1="CBr" t2="Vc4d"/>
+    <connection t1="CBr" t2="Vc4e"/>
+    <connection t1="CBr" t2="Vc5a"/>
+    <connection t1="CBr" t2="Vc5b"/>
+    <connection t1="CBr" t2="Vc5c"/>
+    <connection t1="CBr" t2="Vc5d"/>
+    <connection t1="CBr" t2="Vc5e"/>
+    <connection t1="CBr" t2="Vc6a"/>
+    <connection t1="CBr" t2="Vc6b"/>
+    <connection t1="CBr" t2="Vc6c"/>
+    <connection t1="CBr" t2="Vc6d"/>
+    <connection t1="CBr" t2="Vc6e"/>
+    <connection t1="CBr" t2="Vc7a"/>
+    <connection t1="CBr" t2="Vc7b"/>
+    <connection t1="CBr" t2="Vc7c"/>
+    <connection t1="CBr" t2="Vc7d"/>
+    <connection t1="CBr" t2="Vc7e"/>
+    <connection t1="CBr" t2="Vc8a"/>
+    <connection t1="CBr" t2="Vc8b"/>
+    <connection t1="CBr" t2="Vc8c"/>
+    <connection t1="CBr" t2="Vc8d"/>
+    <connection t1="CBr" t2="Vc8e"/>
+    <connection t1="CBr" t2="Vc9a"/>
+    <connection t1="CBr" t2="Vc9b"/>
+    <connection t1="CBr" t2="Vc9c"/>
+    <connection t1="CBr" t2="Vc9d"/>
+    <connection t1="CBr" t2="Vc9e"/>
+    <connection t1="CBr" t2="Vc10a"/>
+    <connection t1="CBr" t2="Vc10b"/>
+    <connection t1="CBr" t2="Vc10c"/>
+    <connection t1="CBr" t2="Vc10d"/>
+    <connection t1="CBr" t2="Vc10e"/>
+    <connection t1="CBr" t2="Vc11a"/>
+    <connection t1="CBr" t2="Vc11b"/>
+    <connection t1="CBr" t2="Vc11c"/>
+    <connection t1="CBr" t2="Vc11d"/>
+    <connection t1="CBr" t2="Vc11e"/>
+    <connection t1="CBr" t2="Vc12a"/>
+    <connection t1="CBr" t2="Vc12b"/>
+    <connection t1="CBr" t2="Vc12c"/>
+    <connection t1="CBr" t2="Vc12d"/>
+    <connection t1="CBr" t2="Vc12e"/>
+    <connection t1="CBr" t2="Vc13a"/>
+    <connection t1="CBr" t2="Vc13b"/>
+    <connection t1="CBr" t2="Vc13c"/>
+    <connection t1="CBr" t2="Vc13d"/>
+    <connection t1="CBr" t2="Vc13e"/>
+    <connection t1="CBr" t2="Vc14a"/>
+    <connection t1="CBr" t2="Vc14b"/>
+    <connection t1="CBr" t2="Vc14c"/>
+    <connection t1="CBr" t2="Vc14d"/>
+    <connection t1="CBr" t2="Vc14e"/>
+    <connection t1="CBr" t2="Vc15a"/>
+    <connection t1="CBr" t2="Vc15b"/>
+    <connection t1="CBr" t2="Vc15c"/>
+    <connection t1="CBr" t2="Vc15d"/>
+    <connection t1="CBr" t2="Vc15e"/>
+    <connection t1="CBr" t2="Vc16a"/>
+    <connection t1="CBr" t2="Vc16b"/>
+    <connection t1="CBr" t2="Vc16c"/>
+    <connection t1="CBr" t2="Vc16d"/>
+    <connection t1="CBr" t2="Vc16e"/>
+    <connection t1="CBr" t2="Vc17a"/>
+    <connection t1="CBr" t2="Vc17b"/>
+    <connection t1="CBr" t2="Vc17c"/>
+    <connection t1="CBr" t2="Vc17d"/>
+    <connection t1="CBr" t2="Vc17e"/>
+    <connection t1="CBr" t2="Vc18a"/>
+    <connection t1="CBr" t2="Vc18b"/>
+    <connection t1="CBr" t2="Vc18c"/>
+    <connection t1="CBr" t2="Vc18d"/>
+    <connection t1="CBr" t2="Vc18e"/>
+    <connection t1="CBl" t2="Vc1a"/>
+    <connection t1="CBl" t2="Vc1b"/>
+    <connection t1="CBl" t2="Vc1c"/>
+    <connection t1="CBl" t2="Vc1d"/>
+    <connection t1="CBl" t2="Vc1e"/>
+    <connection t1="CBl" t2="Vc2a"/>
+    <connection t1="CBl" t2="Vc2b"/>
+    <connection t1="CBl" t2="Vc2c"/>
+    <connection t1="CBl" t2="Vc2d"/>
+    <connection t1="CBl" t2="Vc2e"/>
+    <connection t1="CBl" t2="Vc3a"/>
+    <connection t1="CBl" t2="Vc3b"/>
+    <connection t1="CBl" t2="Vc3c"/>
+    <connection t1="CBl" t2="Vc3d"/>
+    <connection t1="CBl" t2="Vc3e"/>
+    <connection t1="CBl" t2="Vc4a"/>
+    <connection t1="CBl" t2="Vc4b"/>
+    <connection t1="CBl" t2="Vc4c"/>
+    <connection t1="CBl" t2="Vc4d"/>
+    <connection t1="CBl" t2="Vc4e"/>
+    <connection t1="CBl" t2="Vc5a"/>
+    <connection t1="CBl" t2="Vc5b"/>
+    <connection t1="CBl" t2="Vc5c"/>
+    <connection t1="CBl" t2="Vc5d"/>
+    <connection t1="CBl" t2="Vc5e"/>
+    <connection t1="CBl" t2="Vc6a"/>
+    <connection t1="CBl" t2="Vc6b"/>
+    <connection t1="CBl" t2="Vc6c"/>
+    <connection t1="CBl" t2="Vc6d"/>
+    <connection t1="CBl" t2="Vc6e"/>
+    <connection t1="CBl" t2="Vc7a"/>
+    <connection t1="CBl" t2="Vc7b"/>
+    <connection t1="CBl" t2="Vc7c"/>
+    <connection t1="CBl" t2="Vc7d"/>
+    <connection t1="CBl" t2="Vc7e"/>
+    <connection t1="CBl" t2="Vc8a"/>
+    <connection t1="CBl" t2="Vc8b"/>
+    <connection t1="CBl" t2="Vc8c"/>
+    <connection t1="CBl" t2="Vc8d"/>
+    <connection t1="CBl" t2="Vc8e"/>
+    <connection t1="CBl" t2="Vc9a"/>
+    <connection t1="CBl" t2="Vc9b"/>
+    <connection t1="CBl" t2="Vc9c"/>
+    <connection t1="CBl" t2="Vc9d"/>
+    <connection t1="CBl" t2="Vc9e"/>
+    <connection t1="CBl" t2="Vc10a"/>
+    <connection t1="CBl" t2="Vc10b"/>
+    <connection t1="CBl" t2="Vc10c"/>
+    <connection t1="CBl" t2="Vc10d"/>
+    <connection t1="CBl" t2="Vc10e"/>
+    <connection t1="CBl" t2="Vc11a"/>
+    <connection t1="CBl" t2="Vc11b"/>
+    <connection t1="CBl" t2="Vc11c"/>
+    <connection t1="CBl" t2="Vc11d"/>
+    <connection t1="CBl" t2="Vc11e"/>
+    <connection t1="CBl" t2="Vc12a"/>
+    <connection t1="CBl" t2="Vc12b"/>
+    <connection t1="CBl" t2="Vc12c"/>
+    <connection t1="CBl" t2="Vc12d"/>
+    <connection t1="CBl" t2="Vc12e"/>
+    <connection t1="CBl" t2="Vc13a"/>
+    <connection t1="CBl" t2="Vc13b"/>
+    <connection t1="CBl" t2="Vc13c"/>
+    <connection t1="CBl" t2="Vc13d"/>
+    <connection t1="CBl" t2="Vc13e"/>
+    <connection t1="CBl" t2="Vc14a"/>
+    <connection t1="CBl" t2="Vc14b"/>
+    <connection t1="CBl" t2="Vc14c"/>
+    <connection t1="CBl" t2="Vc14d"/>
+    <connection t1="CBl" t2="Vc14e"/>
+    <connection t1="CBl" t2="Vc15a"/>
+    <connection t1="CBl" t2="Vc15b"/>
+    <connection t1="CBl" t2="Vc15c"/>
+    <connection t1="CBl" t2="Vc15d"/>
+    <connection t1="CBl" t2="Vc15e"/>
+    <connection t1="CBl" t2="Vc16a"/>
+    <connection t1="CBl" t2="Vc16b"/>
+    <connection t1="CBl" t2="Vc16c"/>
+    <connection t1="CBl" t2="Vc16d"/>
+    <connection t1="CBl" t2="Vc16e"/>
+    <connection t1="CBl" t2="Vc17a"/>
+    <connection t1="CBl" t2="Vc17b"/>
+    <connection t1="CBl" t2="Vc17c"/>
+    <connection t1="CBl" t2="Vc17d"/>
+    <connection t1="CBl" t2="Vc17e"/>
+    <connection t1="CBl" t2="Vc18a"/>
+    <connection t1="CBl" t2="Vc18b"/>
+    <connection t1="CBl" t2="Vc18c"/>
+    <connection t1="CBl" t2="Vc18d"/>
+    <connection t1="CBl" t2="Vc18e"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="Red" optional="false"/>
+    <player name="Blue" optional="false"/>
+  </playerList>
+  <unitList>
+    <unit name="Trooper"/>
+    <unit name="HeavyArmour"/>
+    <unit name="Destroyer"/>
+    <unit name="Frigate"/>
+    <unit name="BattleCruiser"/>
+    <unit name="Dreadnought"/>
+    <unit name="FleetCarrier"/>
+    <unit name="Interceptor"/>
+    <unit name="FactoryComplex"/>
+    <unit name="PlanetaryDefenses"/>
+    <unit name="Counter"/>
+    <unit name="CounterTapped"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <!-- Bidding Phase -->
+      <step name="redBid" delegate="bid" player="Red" maxRunCount="1"/>
+      <step name="redBidPlace" delegate="placeBid" player="Red" maxRunCount="1"/>
+      <step name="blueBid" delegate="bid" player="Blue" maxRunCount="1"/>
+      <step name="blueBidPlace" delegate="placeBid" player="Blue" maxRunCount="1"/>
+      <!-- Red Game Sequence -->
+      <step name="redCombatMove" delegate="move" player="Red"/>
+      <step name="redBattle" delegate="battle" player="Red"/>
+      <step name="redNonCombatMove" delegate="move" player="Red" display="Non Combat Move"/>
+      <step name="redEndTurn" delegate="endTurn" player="Red"/>
+      <!-- Blue Game Sequence -->
+      <step name="blueCombatMove" delegate="move" player="Blue"/>
+      <step name="blueBattle" delegate="battle" player="Blue"/>
+      <step name="blueNonCombatMove" delegate="move" player="Blue" display="Non Combat Move"/>
+      <step name="blueEndTurn" delegate="endTurn" player="Blue"/>
+      <!-- End Round -->
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <productionRule name="buyTrooper">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="Trooper" quantity="2"/>
+    </productionRule>
+    <productionRule name="buyHeavyArmour">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="HeavyArmour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFrigate">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="Frigate" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyer">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleCruiser">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="BattleCruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDreadnought">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="Dreadnought" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFleetCarrier">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="FleetCarrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyInterceptor">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="Interceptor" quantity="2"/>
+    </productionRule>
+    <productionRule name="buyFactoryComplex">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="FactoryComplex" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyPlanetaryDefenses">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="PlanetaryDefenses" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCounter">
+      <cost resource="PUs" quantity="0"/>
+      <result resourceOrUnit="Counter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCounterTapped">
+      <cost resource="PUs" quantity="0"/>
+      <result resourceOrUnit="CounterTapped" quantity="1"/>
+    </productionRule>
+    <!-- Repair rules -->
+    <repairRule name="repairFactoryComplex">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="FactoryComplex" quantity="1"/>
+    </repairRule>
+    <repairFrontier name="repair">
+      <repairRules name="repairFactoryComplex"/>
+    </repairFrontier>
+    <productionFrontier name="production">
+      <frontierRules name="buyTrooper"/>
+      <frontierRules name="buyHeavyArmour"/>
+      <frontierRules name="buyFrigate"/>
+      <frontierRules name="buyDestroyer"/>
+      <frontierRules name="buyBattleCruiser"/>
+      <frontierRules name="buyDreadnought"/>
+      <frontierRules name="buyFleetCarrier"/>
+      <frontierRules name="buyInterceptor"/>
+      <frontierRules name="buyFactoryComplex"/>
+      <frontierRules name="buyPlanetaryDefenses"/>
+      <frontierRules name="buyCounter"/>
+      <frontierRules name="buyCounterTapped"/>
+    </productionFrontier>
+    <playerProduction player="Red" frontier="production"/>
+    <playerProduction player="Blue" frontier="production"/>
+    <playerRepair player="Red" frontier="repair"/>
+    <playerRepair player="Blue" frontier="repair"/>
+  </production>
+  <attatchmentList>
+    <!-- Red -->
+    <attatchment name="techAttatchment" attatchTo="Red" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+      <option name="aARadar" value="true"/>
+    </attatchment>
+    <!-- Blue -->
+    <attatchment name="techAttatchment" attatchTo="Blue" javaClass="games.strategy.triplea.attatchments.TechAttachment" type="player">
+      <option name="aARadar" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Trooper" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Counter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="CounterTapped" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="HeavyArmour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Interceptor" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="BattleCruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="transportCapacity" value="1"/>
+      <option name="movement" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="FleetCarrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="transportCapacity" value="6"/>
+      <option name="carrierCapacity" value="6"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Dreadnought" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="canBombard" value="true"/>
+      <option name="isTwoHit" value="true"/>
+      <option name="transportCapacity" value="6"/>
+      <option name="carrierCapacity" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="FactoryComplex" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="PlanetaryDefenses" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="1"/>
+      <option name="movement" value="1"/>
+    </attatchment>
+    <!-- Territory Attatchments -->
+    <attatchment name="territoryAttatchment" attatchTo="Winnu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ragh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Moll Primus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="capital" value="Blue"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Darien" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Muaat" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="capital" value="Red"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mecatol Rex" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jumpgate Nexus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Capha" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Zohbat" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bereg" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Abyz" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Primor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Saudor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Garbozia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arnor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ashtroth" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsion" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lirta IV" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Perimeter" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lesab" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lisis II" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Abaddon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Loki" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arcturus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mirage" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rigel II" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rigel III" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arinam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Meer" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rigel I" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mellon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gy" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gr" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gg" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gbl" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gbr" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <!-- Red Owned Territories -->
+      <territoryOwner territory="Muaat" owner="Red"/>
+      <territoryOwner territory="Gr" owner="Red"/>
+      <!-- Blue Owned Territories -->
+      <territoryOwner territory="Moll Primus" owner="Blue"/>
+      <territoryOwner territory="Gbl" owner="Blue"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <!-- Red Land Unit Placements -->
+      <unitPlacement unitType="Trooper" territory="Muaat" quantity="4" owner="Red"/>
+      <unitPlacement unitType="Interceptor" territory="Muaat" quantity="2" owner="Red"/>
+      <unitPlacement unitType="FactoryComplex" territory="Muaat" quantity="1" owner="Red"/>
+      <!--  Red Space Unit Placements -->
+      <unitPlacement unitType="Dreadnought" territory="Sector 17" quantity="1" owner="Red"/>
+      <!-- Red Unit Pool Placements -->
+      <unitPlacement unitType="Trooper" territory="Gr" quantity="999" owner="Red"/>
+      <unitPlacement unitType="Interceptor" territory="Gr" quantity="999" owner="Red"/>
+      <unitPlacement unitType="HeavyArmour" territory="Gr" quantity="4" owner="Red"/>
+      <unitPlacement unitType="FactoryComplex" territory="Gr" quantity="2" owner="Red"/>
+      <unitPlacement unitType="PlanetaryDefenses" territory="Gr" quantity="6" owner="Red"/>
+      <unitPlacement unitType="Frigate" territory="Sr" quantity="8" owner="Red"/>
+      <unitPlacement unitType="Destroyer" territory="Sr" quantity="8" owner="Red"/>
+      <unitPlacement unitType="FleetCarrier" territory="Sr" quantity="4" owner="Red"/>
+      <unitPlacement unitType="BattleCruiser" territory="Sr" quantity="5" owner="Red"/>
+      <unitPlacement unitType="Dreadnought" territory="Sr" quantity="1" owner="Red"/>
+      <!--Red  Counter Placements -->
+      <unitPlacement unitType="Counter" territory="CR" quantity="99" owner="Red"/>
+      <unitPlacement unitType="CounterTapped" territory="CR" quantity="99" owner="Red"/>
+      <unitPlacement unitType="Counter" territory="TR" quantity="3" owner="Red"/>
+      <unitPlacement unitType="Counter" territory="FR" quantity="3" owner="Red"/>
+      <unitPlacement unitType="Counter" territory="InR" quantity="1" owner="Red"/>
+      <unitPlacement unitType="Counter" territory="IpR" quantity="4" owner="Red"/>
+      <!-- Blue Land Unit Placements -->
+      <unitPlacement unitType="Trooper" territory="Moll Primus" quantity="4" owner="Blue"/>
+      <unitPlacement unitType="FactoryComplex" territory="Moll Primus" quantity="1" owner="Blue"/>
+      <!-- Blue Space Unit Placements -->
+      <unitPlacement unitType="FleetCarrier" territory="Sector 9" quantity="1" owner="Blue"/>
+      <unitPlacement unitType="Destroyer" territory="Sector 9" quantity="3" owner="Blue"/>
+      <!-- Blue Unit Pool Placements -->
+      <unitPlacement unitType="Trooper" territory="Gbl" quantity="999" owner="Blue"/>
+      <unitPlacement unitType="Interceptor" territory="Gbl" quantity="999" owner="Blue"/>
+      <unitPlacement unitType="HeavyArmour" territory="Gbl" quantity="4" owner="Blue"/>
+      <unitPlacement unitType="FactoryComplex" territory="Gbl" quantity="2" owner="Blue"/>
+      <unitPlacement unitType="PlanetaryDefenses" territory="Gbl" quantity="6" owner="Blue"/>
+      <unitPlacement unitType="Frigate" territory="Sbl" quantity="8" owner="Blue"/>
+      <unitPlacement unitType="Destroyer" territory="Sbl" quantity="5" owner="Blue"/>
+      <unitPlacement unitType="FleetCarrier" territory="Sbl" quantity="3" owner="Blue"/>
+      <unitPlacement unitType="BattleCruiser" territory="Sbl" quantity="5" owner="Blue"/>
+      <unitPlacement unitType="Dreadnought" territory="Sbl" quantity="2" owner="Blue"/>
+      <!--Blue  Counter Placements -->
+      <unitPlacement unitType="Counter" territory="CBl" quantity="99" owner="Blue"/>
+      <unitPlacement unitType="CounterTapped" territory="CBl" quantity="99" owner="Blue"/>
+      <unitPlacement unitType="Counter" territory="TBl" quantity="3" owner="Blue"/>
+      <unitPlacement unitType="Counter" territory="FBl" quantity="4" owner="Blue"/>
+      <unitPlacement unitType="Counter" territory="InBl" quantity="1" owner="Blue"/>
+      <unitPlacement unitType="Counter" territory="IpBl" quantity="4" owner="Blue"/>
+      <!-- Neutral Land Unit Placements -->
+      <unitPlacement unitType="Trooper" territory="Mecatol Rex" quantity="2"/>
+      <unitPlacement unitType="Interceptor" territory="Mecatol Rex" quantity="3"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Red" resource="PUs" quantity="4"/>
+      <resourceGiven player="Blue" resource="PUs" quantity="4"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <!-- Bids -->
+    <property name="Red bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Blue bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <!-- OPTIONAL PROPERTIES -->
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for AntiAircraft" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Technology" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Bombing and Territory Damage" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="National Objectives" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Always on AA" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at end of round" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at beginning of round" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="neutralCharge" value="0"/>
+    <property name="maxFactoriesPerTerritory" value="1"/>
+    <property name="Unescorted Transport Dies" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Heavy Bomber Rolls-->
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="false">
+      <number min="2" max="10"/>
+    </property>
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="SBR Affects Unit Production" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Map Name: also used for map utils when asked -->
+    <property name="mapName" value="twilight_imperium" editable="false"/>
+    <!-- notes appear in the notes menu in the main screen, format as html -->
+    <property name="notes">
+      <value><![CDATA[  
+<b>== Twilight Imperium (kind of) 1.0 by Geno33==</b>  <br>  <br>
+
+<b>v.1.1</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img32.imageshack.us/i/topshot.png/'><img src='http://img32.imageshack.us/img32/1041/topshot.png' border='0'/></a><br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>About</b><br><br>
+
+This is an adaptation of the board game Twilight Imperium and it plays quite a bit differently from Axis and Allies. An explanation of the rules and a brief tutorial is provided lower down in this post. Some basic info:<br><br>
+
+The map is setup with 2 factions, free-for-all. <br><br>
+
+Everything you do has a cost in this game - and PUs and unit placement is not handled like Axis and Allies. A player card for each faction is located near their homeworld to enable you to easily keep track of: resources, unit caps, and Victory Points.<br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>The Current Unit Stats</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img35.imageshack.us/i/unitstats.png/'><img src='http://img35.imageshack.us/img35/4634/unitstats.png' border='0'/></a><br><br>
+
+<i>This table is located in the upper left of the playing area for reference while playing.</i><br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>The 2 Resources Associated with Planets/Stations</b><br><br>
+
+Below the names of the various planets and stations on the playing area there are 1 or 2 numbers.<br><br>
+
+The <b>yellow</b> (left) number represents the <b>PU</b> value of the territory. PU is tapped to purchase units and to full-fill certain Objectives for Victory Points.<br><br>
+
+The <b>red</b> (right) number represents the <b>Influence</b> value of the territory. Influence is tapped to convert into Tactical or Fleet Supply Counters (more detail further down) and to full-fill certain Objectives for Victory Points.<br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>The Player Card</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img26.imageshack.us/i/playercard.png/'><img src='http://img26.imageshack.us/img26/5057/playercard.png' border='0'/></a></a><br><br>
+
+I'll go through this row by row, from top to bottom. <br><br>
+
+<b>Tactical and Fleet Supply</b><br>
+These are combined as you may move counters from one to the other as you wish during your turn.
+Everything you do in a given hex, except for moving-out of a hex or <i>picking-up</i> ground forces/interceptors, will cost you 1 Tactical Point.<br>
+Once spent a point goes back into the Counter Pool.<br>
+Fleet supply is equal to the maximum number of capital ships you are legally allowed to have in a hex. Capital ships are Destroyers and above. <br>
+Players start with a certain amount in each, and at the start of each round (after the first) they gain two  additional points from the Counter Pool that they can place in Tactical or Fleet Supply as they wish.<br>
+Additional counters may be gained by tapping Influence. You receive 1 counter for every 3 Influence you tap.<br><br>
+
+<b>Influence</b><br>
+Influence is gained by taking territory with the red Influence value associated with it.<br>
+<i>Influence gained starts Tapped.</i><br>
+Influence can be tapped to convert into counters for Tactical/Fleet Supply, or tapped to full-fill certain Objectives to gain Victory Points. <br>
+In the above example, if Green wanted to tap 3 Influence they'd simply move 3 counters into the pool and move 3 tapped counters from the pool into the Influence area. <br>
+Tapped Influence becomes un-tapped at the start of each round.<br>
+<br><b>Influence is associated with particular planet - you are really tapping a planet, which includes its PU value if it has any. Keep this in mind.</b><br><br>
+
+<b>Counter Pool</b><br>
+Think of this simply as your pile of little cardboard pieces used to keep track of the other stats on the player card.<br><br>
+
+<b>PUs</b><br>
+PU is gained by taking territory with the yellow PU value associated with it.<br>
+<i>PU gained starts Tapped.</i><br>
+PUs can be tapped to place units, or tapped to full-fill certain Objectives to gain Victory Points. <br>
+In the above example, if Green wanted to tap 3 PUs they'd simply move 3 counters into the pool and move 3 tapped counters from the pool into the PUs area. <br>
+Tapped PU becomes un-tapped at the start of each round.<br>
+<b>PU is associated with particular planet - you are really tapping a planet, which includes its Influence value if it has any. Keep this in mind.</b><br><br>
+
+<b>VPs</b><br>
+A faction reaching 8, 10 or 14 Victory Points wins the game. (More points obviously extends the game length)<br>
+Victory Points are gained by claiming Objectives. (more detail further down) <br><br>
+
+<b>The Force Pool</b><br>
+The Force Pool is your bag of plastic units.<br>
+A faction is limited to have these forces on the play area as a maximum:<br>
+-2 Dreadnoughts<br>
+-5 Battlecruisers<br>
+-8 Destroyers<br>
+-8 Frigates<br>
+-4 Fleet Carriers<br>
+-6 Planetary Defenses<br>
+-3 Factory Complexes<br>
+-4 Heavy Armour<br>
+-Infantry and Interceptors are not considered limited.<br>
+In the above image, you can see that Green already has 1 Planetary Def, 1 Carrier, 1 Factory and 1 Destroyer on the play area. <br>
+When you deploy units, they come from the Force Pool.<br>
+When a (limited) unit is destroyed, add it back into the Force Pool w/ the editor.<br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>Objective Cards</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img40.imageshack.us/i/vps.png/'><img src='http://img40.imageshack.us/img40/715/vps.png' border='0'/></a><br><br>
+
+Objective Cards are located in the bottom right of the board. As you can see, there are two sets of cards worth 1 VP and 2 VP respectively.<br>
+A faction may claim 1 objective per game round, and may not choose the same objective more than one per game.<br>
+When you claim an Objective, use edit mode to add a counter (don't try to move one from your Pool) beside the card, then move the value of the card (in counters from your pool) to the VP area of your Player Card. <br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>An example Round of Play</b><br><br>
+
+Start of Round 1, Green Turn.<br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img36.imageshack.us/i/greenstart.png/'><img src='http://img36.imageshack.us/img36/4987/greenstart.png' border='0'/></a><br>
+This shows Green starting forces and their current PU and Influence counts.<br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img3.imageshack.us/i/greenturn1.png/'><img src='http://img3.imageshack.us/img3/5272/greenturn1.png' border='0'/></a></a><br>
+-Green picks-up 3 ground troops and two interceptors from Winnu, their home planet.<br>
+-Green moves their loaded carrier and the destroyer 1 hex over and lands troops. This costs 1 Tactical point so they move a counter from the Tactical area back into the pool on their Player Card.<br>
+-Green gains 3 PU and 1 Influence from this planet, so they move 3 tapped counters into the PU area and 1 tapped counter into the Influence area on their Player Card.<br><br>
+
+-<b>Green has performed an action, so now the next player takes their turn.</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img199.imageshack.us/i/greenturn2u.png/'><img src='http://img199.imageshack.us/img199/8576/greenturn2u.png' border='0'/></a><br>
+-Green decides to purchase a second carrier. Deploying costs a Tactical point so they move a counter back into their pool.<br>
+-A carrier costs 3 PUs. Green taps their home system for 3 PUs and doing so they also tap it's 4 Influence. Tapped counters from the pool replace the un-tapped ones that went into the pool.
+-Green has a single Tactical point remaining, but has no legal actions left to perform on the board.<br>
+-<b>All hexes containing Green forces have had a Tactical point spent on them and Green ships can not move into or out of these hexes. Neither could units be deployed <i>again</i> in the home system, a hex may not have more than one Green point spent on it.</b><br>
+-Green checks the Objective Cards, but has not full filled any o them, so gains no VPs.<br>
+-Green therefore passes.<br><br>
+
+-<b>Once all the players have passed the round is over.</b><br><br>
+
+<a target='_blank' title='ImageShack - Image And Video Hosting' href='http://img12.imageshack.us/i/greennewround.png/'><img src='http://img12.imageshack.us/img12/8721/greennewround.png' border='0'/></a><br>
+-All the other factions have passed and a new turn in a new round begins for Green.<br>
+-Because this is a new round Green un-taps their resources, and receives 2 counters from their Pool to place in Fleet Supply or Tactical as they wish. In this case Green put them into Tactical. <br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+<b>Some Rules to Remember</b><br><br>
+
+-A planet with no PU value cannot produce units.<br>
+-Factories can place units numbered the planets PU value +3<br>
+-Factories can not produce space units if an enemy space unit is present in the hex containing that factory.<br>
+-You may spend 1 Tactical point to transfer forces between two adjacent hexes and to produce units in one of these hexes. Both must contain at least 1 unit controlled by the current player and contain no enemy units of any kind. For the rest of the round consider that you have spent a Tactical point on both hexes.<br>
+-You only spend a point on the destination hex when moving.<br>
+-Damaged ships are repaired at the end of a round, not a turn. You'll have to do this with the editor.<br><br>
+
+------------------------------------------------------------------------------------<br><br>
+
+Have fun, comments are welcome.<br>
+bpbull@shaw.ca
+
+  
+					]]></value>
+    </property>
+  </propertyList>
+</game>
