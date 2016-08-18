@@ -1238,7 +1238,7 @@
       <option name="attack" value="5"/>
       <option name="defense" value="5"/>
       <option name="canBombard" value="true"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
       <option name="transportCapacity" value="6"/>
       <option name="carrierCapacity" value="6"/>
     </attachment>
@@ -1487,10 +1487,10 @@
     <property name="Roll AA Individually" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at end of round" value="false" editable="false">
+    <property name="Units Repair Hits End Turn" value="false" editable="false">
       <boolean/>
     </property>
-    <property name="Units repair at beginning of round" value="false" editable="false">
+    <property name="Units Repair Hits Start Turn" value="false" editable="false">
       <boolean/>
     </property>
     <property name="neutralCharge" value="0"/>
