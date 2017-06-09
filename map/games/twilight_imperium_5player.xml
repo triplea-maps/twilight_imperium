@@ -1665,7 +1665,7 @@
     <property name="AA Territory Restricted" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="SBR Affects Unit Production" value="false" editable="false">
+    <property name="Damage From Bombing Done To Units Instead Of Territories" value="false" editable="false">
       <boolean/>
     </property>
     <!-- Map Name: also used for map utils when asked -->
