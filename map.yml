@@ -1,0 +1,4 @@
+map_name: twilight_imperium
+games:
+- {game_name: Twilight Imperium 5player, file_name: twilight_imperium_5player.xml}
+- {game_name: Twilight Imperium 1v1, file_name: twilight_imperium_1v1.xml}
